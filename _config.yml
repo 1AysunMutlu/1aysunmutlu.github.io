@@ -5,4 +5,10 @@ url: "https://aysunmutlu.com"
 theme: minima
 
 linkedin_username: aysun-mutlu
-github_username: aysunmutlu
+github_username: 1AysunMutlu
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
