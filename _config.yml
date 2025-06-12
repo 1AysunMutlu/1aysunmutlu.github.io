@@ -1,14 +1,55 @@
 title: "Aysun Mutlu"
-description: "Data Scientist | PhD in Operations Management"
+email: "your-email@example.com"
+description: >-
+  Data Scientist | PhD in Operations Management
 baseurl: ""
 url: "https://aysunmutlu.com"
-theme: minima
-
-linkedin_username: aysun-mutlu
+twitter_username: aysunmutlu
 github_username: 1AysunMutlu
+linkedin_username: aysun-mutlu
 
-# Navigation
-header_pages:
-  - index.md
-  - about.md
-  - projects.md
+minimal_mistakes_skin: "default"
+locale: "en-US"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+author:
+  name: "Aysun Mutlu"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Data Scientist | Customer Behavior | Optimization | Reinforcement Learning"
+  location: "Canada"
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: "portfolio"
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+permalink: /:categories/:title/
