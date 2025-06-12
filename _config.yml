@@ -33,6 +33,15 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+# Navigation links
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+
 defaults:
   - scope:
       path: ""
