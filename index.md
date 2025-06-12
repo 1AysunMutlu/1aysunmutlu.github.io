@@ -1,17 +1,8 @@
 ---
 layout: home
-title: Aysun Mutlu
+author_profile: true
 ---
 
-# Aysun Mutlu  
-_PhD in Operations Management | Data Scientist | Explorer of Customer Behavior_
+Welcome to my personal and professional website. I'm Aysun Mutlu, a Data Scientist with a PhD in Operations Management.
 
-Welcome! I'm Aysun, a recent PhD graduate from McGill University with a deep passion for data-driven decision-making, customer analytics, and intelligent systems.
-
-I specialize in building actionable models grounded in behavioral data—particularly within marketing, operations, and AI-driven personalization systems.
-
----
-
-📫 [LinkedIn](https://www.linkedin.com/in/aysun-mutlu/)  
-💻 [GitHub](https://github.com/1AysunMutlu)  
-📍 Based in Canada  
+Here you'll find a blend of academic insights, applied machine learning projects, and thoughts on intelligent decision-making in business.
