@@ -3,6 +3,7 @@ tagline: "Data Scientist | PhD in Operations Management"
 description: "Personal academic website"
 url: "https://aysunmutlu.com"
 baseurl: ""
+
 lang: en
 timezone: America/Toronto
 
@@ -12,11 +13,7 @@ author:
   avatar: "/assets/img/profile.jpg"
   location: "Canada"
 
-github:
-  username: 1AysunMutlu
-
-google_analytics: ""
-
+theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
