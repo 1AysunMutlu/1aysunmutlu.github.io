@@ -17,7 +17,6 @@ github:
 
 google_analytics: ""
 
-theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
