@@ -28,11 +28,6 @@ author:
   bio: "Data Scientist | Customer Behavior | Optimization | Reinforcement Learning"
   location: "Canada"
 
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-
 # Navigation links
 nav:
   - title: "Home"
@@ -41,6 +36,11 @@ nav:
     url: /about/
   - title: "Projects"
     url: /projects/
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   - scope:
