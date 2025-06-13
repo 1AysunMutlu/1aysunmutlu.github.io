@@ -1,0 +1,34 @@
+title: "Aysun Mutlu"
+tagline: "Data Scientist | PhD in Operations Management"
+description: "Personal academic website"
+url: "https://aysunmutlu.com"
+baseurl: ""
+lang: en
+timezone: America/Toronto
+
+author:
+  name: Aysun Mutlu
+  bio: "Customer Behavior • Optimization • Data Science"
+  avatar: "/assets/img/profile.jpg"
+  location: "Canada"
+
+github:
+  username: 1AysunMutlu
+
+google_analytics: ""
+
+theme: jekyll-theme-chirpy
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+collections:
+  posts:
+    output: true
+
+permalink: /posts/:title/
+paginate: 5
+paginate_path: /page:num/
