@@ -13,6 +13,7 @@ author:
   avatar: "/assets/img/profile.jpg"
   location: "Canada"
 
+theme: null
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
