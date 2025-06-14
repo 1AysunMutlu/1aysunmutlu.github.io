@@ -10,7 +10,8 @@ author:
   bio: "Customer Behavior • Optimization • Data Science"
   avatar: "/assets/img/profile.jpg"
   location: Canada
-theme: jekyll-theme-chirpy
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+theme: jekyll-theme-chirpy
