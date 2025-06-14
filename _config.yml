@@ -6,6 +6,8 @@ url: "https://aysunmutlu.com"
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: default
 
+
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
