@@ -1,17 +1,57 @@
 title: "Aysun Mutlu"
-tagline: "Data Scientist | PhD in Operations Management"
-description: "Personal and academic site"
-url: "https://aysunmutlu.com"
+email: "your-email@example.com"
+description: "Data Scientist | PhD in Operations Management"
 baseurl: ""
-lang: en
-timezone: America/Toronto
-author:
-  name: Aysun Mutlu
-  bio: "Customer Behavior • Optimization • Data Science"
-  avatar: "/assets/img/profile.jpg"
-  location: Canada
+url: "https://aysunmutlu.com"
+twitter_username: aysunmutlu
+github_username: 1AysunMutlu
+linkedin_username: aysun-mutlu
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: default
+locale: en-US
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
 
-theme: jekyll-theme-chirpy
+author:
+  name: "Aysun Mutlu"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Customer Behavior • Optimization • Data Science"
+  location: "Canada"
+
+# Navigation
+nav:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+permalink: /:title/
