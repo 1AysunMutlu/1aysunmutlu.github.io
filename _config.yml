@@ -15,8 +15,19 @@ theme: null
 plugins:
   - jekyll-include-cache
 
+minimal_mistakes_skin: default
+
+# Add custom CSS
+sass:
+  style: compressed
+  load_paths:
+    - _sass
+    - assets/css
+
+# Custom includes
 include:
   - _pages
+  - assets/css
 
 navigation:
   enabled: true
@@ -48,6 +59,13 @@ timezone: America/Toronto
 
 # Optional: Google Analytics or GoatCounter (visitor stats)
 # goat_counter: "aysunmutlu"
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      custom_css: assets/css/custom.css
 
 # Footer
 footer:

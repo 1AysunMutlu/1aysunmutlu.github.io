@@ -1,0 +1,5 @@
+/* Make avatar image bigger */
+.author__avatar img {
+  max-width: 160px; /* default is 100px */
+  border-radius: 50%;
+}
