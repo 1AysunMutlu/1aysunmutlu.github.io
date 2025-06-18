@@ -10,14 +10,17 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+theme: null
+plugins:
+  - jekyll-include-cache
+
 include:
   - _pages
 
-header_pages:
-  - _pages/about.md
-  - _pages/research.md
-  - _pages/projects.md
-  - _pages/contact.md
+navigation:
+  enabled: true
+  style: links
 
 # Author information
 author:
