@@ -10,12 +10,15 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+include:
+  - _pages
+
 # Navigation tabs
 header_pages:
-  - about.md
-  - research.md
-  - projects.md
-  - contact.md
+  - _pages/about.md
+  - _pages/research.md
+  - _pages/projects.md
+  - _pages/contact.md
 
 # Author information
 author:
