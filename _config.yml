@@ -11,6 +11,8 @@ remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+theme: null
+
 # Navigation tabs
 header_pages:
   - about.md
