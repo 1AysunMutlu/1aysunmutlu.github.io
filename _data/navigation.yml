@@ -5,5 +5,9 @@ main:
     url: /research/
   - title: "Projects"
     url: /projects/
+  - title: "Aysun’s World"
+    url: /world/
+  - title: "Wanderlust Moments"
+    url: /wanderlust/
   - title: "Contact"
     url: /contact/
