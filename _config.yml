@@ -2,20 +2,22 @@ title: "Aysun Mutlu"
 email: "aysun.mutlu@mail.mcgill.ca"
 description: >-
   A personal and professional space for my research, projects, and ideas.
-baseurl: ""
+baseurl: "" # leave empty for root
 url: "https://aysunmutlu.com"
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-theme: null
+# Theme and plugins
+remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-include-cache
 
+# Navigation tabs
 header_pages:
   - about.md
   - research.md
   - projects.md
   - contact.md
 
+# Author information
 author:
   name: "Aysun Mutlu"
   avatar: "/assets/images/profile.jpg"
@@ -27,4 +29,25 @@ author:
       url: "https://www.linkedin.com/in/aysun-mutlu"
     - label: "GitHub"
       icon: "fab fa-github"
+      url: "https://github.com/1AysunMutlu"
+
+# Social sharing
+twitter_username: ""
+github_username: "1AysunMutlu"
+
+# SEO and sitemap
+minimal_mistakes_skin: "default"
+search: true
+breadcrumbs: true
+timezone: America/Toronto
+
+# Optional: Google Analytics or GoatCounter (visitor stats)
+# goat_counter: "aysunmutlu"
+
+# Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      url: "https://www.linkedin.com/in/aysun-mutlu"
+    - label: "GitHub"
       url: "https://github.com/1AysunMutlu"
