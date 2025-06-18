@@ -1,18 +1,15 @@
 ---
-layout: page
-title: About
+layout: single
+title: "About"
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Aysun.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I recently completed my PhD in Operations Management at McGill University, where I explored how people respond to promotions and how we can use data and thoughtful modelling to understand and improve that experience. My research blends behavioural insight, machine learning, and optimization.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Beyond academia, I’ve worked in industry as a Data Scientist, most recently at Canadian National Railway. I’ve built models that detect rails from 3D LiDAR, forecast customer value, and personalize promotions. I love turning complexity into clarity.
 
+When I’m not thinking about data or design, I’m probably travelling. I’ve visited over 25 countries and 70+ cities and have a soft spot for airplanes and neighbourhood walks. Montreal has been home for the past few years, and the backdrop to this beautiful chapter.
 
-[jekyll-organization]: https://github.com/jekyll
+This site is both a portfolio and a personal space. Thanks for being here.
