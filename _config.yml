@@ -13,7 +13,6 @@ plugins:
 include:
   - _pages
 
-# Navigation tabs
 header_pages:
   - _pages/about.md
   - _pages/research.md
