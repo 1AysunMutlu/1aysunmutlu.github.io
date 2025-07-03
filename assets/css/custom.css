@@ -1,5 +1,10 @@
-/* Make avatar image bigger */
-.author__avatar img {
-  max-width: 160px; /* default is 100px */
-  border-radius: 50%;
+/* Enlarge sidebar photo */
+.author__avatar {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+/* Add space between social icons */
+.author__urls li {
+  margin-bottom: 6px;
 }
