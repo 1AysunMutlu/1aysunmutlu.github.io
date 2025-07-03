@@ -58,4 +58,4 @@ I used techniques from causal inference, optimization, and reinforcement learnin
 
 ---
 
-This research sits at the intersection of theory and practice — shaped by real-world complexity, but grounded in clarity and care. If you'd like to connect or collaborate, feel free to [get in touch](mailto:aysun.mutlu@mail.mcgill.ca).
+This research sits at the intersection of theory and practice, shaped by real-world complexity, but grounded in clarity and care. If you'd like to connect or collaborate, feel free to [get in touch](mailto:1aysunmutlu@gmail.com).

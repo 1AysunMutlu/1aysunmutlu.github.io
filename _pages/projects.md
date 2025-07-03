@@ -16,19 +16,19 @@ As a Data Scientist at CN, I built a deep-learning pipeline to detect and locali
 
 ### 🧠 Promotion Optimization Engine  
 **PhD Thesis, 2023–2025**  
-I developed a reinforcement learning model to personalize promotions based on customer engagement and long-term value. The work combined real-world transactional data, heterogeneous treatment effect analysis, and MILP optimization to benchmark performance. It was tested over a 12-week period with real customer segments.
+I developed a reinforcement learning model to personalize promotions based on customer engagement and customer lifetime value (CLV). The work combined real-world transactional data, heterogeneous treatment effect analysis, and MILP optimization to benchmark performance. It was tested over a 12-week period with real customer segments.
 
 ---
 
 ### 📊 Marketing Analytics & Order Forecasting  
 **Cook It, 2022**  
-I developed predictive models for weekly order forecasting and customer churn, helping reduce inventory waste and improve planning. Alongside this, I built a Python-based dashboard to visualize key metrics — including average order value (AOV), purchase probability, and promotion response across segments. The tools supported weekly decision-making across growth, retention, and operations teams.
+I developed predictive models for weekly order forecasting and customer churn, helping reduce inventory waste and improve planning. Alongside this, I built a Python-based dashboard to visualize key metrics; including average order value (AOV), purchase probability, and promotion response across segments. The tools supported weekly decision-making across growth, retention, and operations teams.
 
 ---
 
 ### 🧭 Travel Recommender System  
 **Side Project**  
-A personal project that uses natural language processing and location data to suggest travel destinations based on user preferences. Built with Python, scikit-learn, and OpenAI embeddings — inspired by a love of exploring and capturing new places.
+A personal project that uses natural language processing and location data to suggest travel destinations based on user preferences. Built with Python, scikit-learn, and OpenAI embeddings, inspired by a love of exploring and capturing new places.
 
 ---
 
