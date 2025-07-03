@@ -5,9 +5,10 @@ title: "Welcome"
 permalink: /
 ---
 
-Hello, I’m Aysun: a curious researcher, thoughtful builder, and quietly determined person with a deep interest in human behavior, technology, and how the two intersect.  
-<br>
+Hello, I’m Aysun.  
 
-This space is a reflection of what I care about: **meaningful work**, creativity in data, and the *joy of learning*. It’s where I share my research, side projects, and thoughts; not just as credentials, but as parts of a journey.
+I care about how people think, what shapes their choices, and how data can help us understand the world a little better. I’ve spent the last few years working on research that blends human behavior, technology, and curiosity.
 
-Welcome, and thank you for stopping by.
+This site is a quiet corner for the things I’ve built, studied, and cared about... from research and projects to ideas I’ve been sitting with... Just the parts that feel most like me.
+
+Thanks for visiting. Welcome!
