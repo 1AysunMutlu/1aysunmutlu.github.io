@@ -46,7 +46,6 @@ I used techniques from causal inference, optimization, and reinforcement learnin
 
 - 📄 **[Promotion Incentives for Customer Engagement](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5324527)**  
   Field experiments with a subscription meal kit service  
-  _Under review at MSOM_
 
 - 🧠 **Timing Optimization of Promotion Incentives**  
   _Accepted for presentation at INFORMS 2025_
