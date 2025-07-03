@@ -26,7 +26,7 @@ I used techniques from causal inference, optimization, and reinforcement learnin
 - **Customer lifetime value (CLV) prediction**  
   Forecasting retention, churn, and order value using behavioral and contextual data  
 
-- **Recommender systems for retention**  
+- **Menu recommender systems for retention**  
   Built hybrid recommenders combining behavioral signals, product metadata, and image features  
 
 ---
