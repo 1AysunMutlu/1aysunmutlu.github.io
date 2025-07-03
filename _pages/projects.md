@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-Here are a few projects I’ve worked on — from industry roles to academic research and side projects. Each one reflects what I value: practical problem-solving, thoughtful design, and learning by doing.
+Here are a few projects I’ve worked on from industry roles to academic research and side projects. Each one reflects what I value: practical problem-solving, thoughtful design, and learning by doing.
 
 ---
 
