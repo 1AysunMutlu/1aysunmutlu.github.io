@@ -25,32 +25,57 @@ document.addEventListener("DOMContentLoaded", function () {
       '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
   }).addTo(map);
 
-  // --- Türkiye (red)
-  L.circleMarker([39.9208, 32.8541], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Ankara</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([41.0082, 28.9784], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Istanbul</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([36.4018, 36.3498], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Hatay</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([37.5736, 36.9371], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Kahramanmaraş</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([36.8969, 30.7133], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Antalya</strong><br>Turkey");
-  markerCount++;
-  L.circleMarker([38.4192, 27.1287], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Izmir</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([37.0344, 27.4303], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Bodrum</strong><br>Türkiye");
-  L.circleMarker([36.8529, 28.2744], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Marmaris</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([36.2013, 29.6380], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Kaş</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([37.1674, 38.7955], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Şanlıurfa</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([37.0662, 37.3833], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Gaziantep</strong><br>Turkey");
-  markerCount++;
-  L.circleMarker([39.9043, 41.2679], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Erzurum</strong><br>Türkiye");
-  markerCount++;
-  L.circleMarker([40.8533, 29.8815], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Kocaeli</strong><br>Türkiye");
-  markerCount++;
+   // --- Türkiye (red)
+  L.circleMarker([39.9208, 32.8541], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Ankara</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([41.0082, 28.9784], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Istanbul</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([36.4018, 36.3498], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Hatay</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([37.5736, 36.9371], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Kahramanmaraş</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([36.8969, 30.7133], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Antalya</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([38.4192, 27.1287], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Izmir</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([37.0344, 27.4303], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Bodrum</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([36.8529, 28.2744], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Marmaris</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([36.2013, 29.6380], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Kaş</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([37.1674, 38.7955], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Şanlıurfa</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([37.0662, 37.3833], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Gaziantep</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([39.9043, 41.2679], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Erzurum</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([40.8533, 29.8815], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Kocaeli</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([37.7765, 29.0864], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Denizli</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([38.6431, 34.8317], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Kapadokya (Göreme)</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([40.1553, 26.4142], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Çanakkale</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([40.2010, 25.9236], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Gökçeada</strong><br>Türkiye"); markerCount++;
 
   // --- France (blue)
   L.circleMarker([48.8566, 2.3522], {radius: 6, color: "blue", fillColor: "blue", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Paris</strong><br>France");
@@ -194,11 +219,22 @@ document.addEventListener("DOMContentLoaded", function () {
   L.circleMarker([51.2093, 3.2247], {radius: 6, color: "lightred", fillColor: "lightred", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Bruges</strong><br>Belgium");
   markerCount++;
 
+  // --- Bulgaria (maroon)
+  L.circleMarker([41.6511, 25.3662], {radius: 6, color: "maroon", fillColor: "maroon", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Kircaali</strong><br>Bulgaria"); markerCount++;
+
+  L.circleMarker([42.1354, 24.7453], {radius: 6, color: "maroon", fillColor: "maroon", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Plovdiv (Filipe)</strong><br>Bulgaria"); markerCount++;
+
+  L.circleMarker([42.6977, 23.3219], {radius: 6, color: "maroon", fillColor: "maroon", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Sofia</strong><br>Bulgaria"); markerCount++;
+
   // --- Greece (lightblue)
-  L.circleMarker([37.9838, 23.7275], {radius: 6, color: "lightblue", fillColor: "lightblue", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Athens</strong><br>Greece");
-  markerCount++;
-  L.circleMarker([41.1231, 25.4066], {radius: 6, color: "lightblue", fillColor: "lightblue", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Gumulcine</strong><br>Greece");
-  markerCount++;
+  L.circleMarker([37.9838, 23.7275], {radius: 6, color: "lightblue", fillColor: "lightblue", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Athens</strong><br>Greece"); markerCount++;
+
+  L.circleMarker([41.1231, 25.4066], {radius: 6, color: "lightblue", fillColor: "lightblue", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Gumulcine (Komotini)</strong><br>Greece"); markerCount++;
 
     // --- Mexico (gold)
   L.circleMarker([21.1619, -86.8515], {radius: 6, color: "gold", fillColor: "gold", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Cancún</strong><br>Mexico");
@@ -250,11 +286,10 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
   // Count the number of markers
-  const markerCount = document.querySelectorAll(".leaflet-interactive").length;
-  document.getElementById("placeCount").textContent = markerCount;
+document.getElementById("placeCount").textContent = markerCount;
 
 </script>
 
 <p style="margin-top: 1em; font-style: italic; color: #666;">
-  ...to be continued.
+  ...to be continued. 🎈
 </p>
