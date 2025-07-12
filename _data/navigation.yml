@@ -9,5 +9,7 @@ main:
     url: /world/
   - title: "Wanderlust Moments"
     url: /wanderlust/
+  - title: "Wanderlust Map"
+    url: /wanderlust-map/
   - title: "Contact"
     url: /contact/
