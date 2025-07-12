@@ -17,8 +17,10 @@ permalink: /wanderlust-map/
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var map = L.map("map").setView([48.8566, 2.3522], 3);
   let markerCount = 0;
+
+//   var map = L.map("map").setView([48.8566, 2.3522], 3);
+//   let markerCount = 0;
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
@@ -323,11 +325,8 @@ document.addEventListener("DOMContentLoaded", function () {
   L.circleMarker([55.6761, 12.5683], {radius: 6, color: "indigo", fillColor: "indigo", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Copenhagen</strong><br>Denmark");
   markerCount++;
 
-
+  document.getElementById("placeCount").textContent = markerCount;
 });
-
-  // Count the number of markers
-document.getElementById("placeCount").textContent = markerCount;
 
 </script>
 
