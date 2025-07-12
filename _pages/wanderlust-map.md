@@ -8,7 +8,11 @@ permalink: /wanderlust-map/
   🌍 Places visited: <span id="placeCount">0</span>
 </p>
 
-<div id="map" style="height: 600px; margin-top: 2em;"></div>
+<div id="map" style="height: 600px;"></div>
+
+<p style="margin-top: 1em; font-style: italic; color: #666;">
+  ...to be continued. 🎈
+</p>
 
 <link
   rel="stylesheet"
@@ -18,6 +22,8 @@ permalink: /wanderlust-map/
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   let markerCount = 0;
+
+  var map = L.map('map').setView([45.0, 10.0], 4);
 
 //   var map = L.map("map").setView([48.8566, 2.3522], 3);
 //   let markerCount = 0;
@@ -327,9 +333,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.getElementById("placeCount").textContent = markerCount;
 });
-
 </script>
-
-<p style="margin-top: 1em; font-style: italic; color: #666;">
-  ...to be continued. 🎈
-</p>
