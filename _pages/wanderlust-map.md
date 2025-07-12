@@ -5,7 +5,7 @@ permalink: /wanderlust-map/
 ---
 
 <p style="font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem;">
-  🌍 Places visited: <span id="placeCount">...</span>
+  🌍 Places visited: <span id="placeCount">0</span>
 </p>
 
 <div id="map" style="height: 600px; margin-top: 2em;"></div>
@@ -76,6 +76,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
   L.circleMarker([40.2010, 25.9236], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
     .addTo(map).bindPopup("<strong>Gökçeada</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([37.8746, 32.4932], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Konya</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([38.7225, 35.4875], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Kayseri</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([36.8121, 34.6415], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Mersin</strong><br>Türkiye"); markerCount++;
+
+  L.circleMarker([40.1826, 29.0662], {radius: 6, color: "red", fillColor: "red", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Bursa</strong><br>Türkiye"); markerCount++;
 
   // --- France (blue)
   L.circleMarker([48.8566, 2.3522], {radius: 6, color: "blue", fillColor: "blue", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Paris</strong><br>France");
