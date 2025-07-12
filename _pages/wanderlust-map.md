@@ -160,6 +160,16 @@ document.addEventListener("DOMContentLoaded", function () {
   L.circleMarker([51.2277, 6.7735], {radius: 6, color: "darkred", fillColor: "darkred", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Düsseldorf</strong><br>Germany");
     markerCount++;
   
+    // --- Spain (orangered)
+  L.circleMarker([40.4168, -3.7038], {radius: 6, color: "orangered", fillColor: "orangered", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Madrid</strong><br>Spain"); markerCount++;
+
+  L.circleMarker([41.3851, 2.1734], {radius: 6, color: "orangered", fillColor: "orangered", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Barcelona</strong><br>Spain"); markerCount++;
+
+  L.circleMarker([39.4699, -0.3763], {radius: 6, color: "orangered", fillColor: "orangered", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Valencia</strong><br>Spain"); markerCount++;
+
   // --- United Kingdom (cadetblue)
   L.circleMarker([51.5074, -0.1278], {radius: 6, color: "cadetblue", fillColor: "cadetblue", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>London</strong><br>UK");
     markerCount++;
