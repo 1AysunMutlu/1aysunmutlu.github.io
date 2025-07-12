@@ -223,6 +223,9 @@ document.addEventListener("DOMContentLoaded", function () {
   L.circleMarker([41.6511, 25.3662], {radius: 6, color: "maroon", fillColor: "maroon", fillOpacity: 0.8})
     .addTo(map).bindPopup("<strong>Kircaali</strong><br>Bulgaria"); markerCount++;
 
+  L.circleMarker([43.2141, 27.9147], {radius: 6, color: "maroon", fillColor: "maroon", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Varna</strong><br>Bulgaria"); markerCount++;
+
   L.circleMarker([42.1354, 24.7453], {radius: 6, color: "maroon", fillColor: "maroon", fillOpacity: 0.8})
     .addTo(map).bindPopup("<strong>Plovdiv (Filipe)</strong><br>Bulgaria"); markerCount++;
 
