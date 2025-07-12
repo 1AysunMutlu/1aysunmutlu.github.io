@@ -112,6 +112,22 @@ document.addEventListener("DOMContentLoaded", function () {
     markerCount++;
   L.circleMarker([46.6863, 7.8632], {radius: 6, color: "green", fillColor: "green", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Interlaken</strong><br>Switzerland");
     markerCount++;
+      // --- Switzerland (green)
+  L.circleMarker([46.4983, 9.8390], {radius: 6, color: "green", fillColor: "green", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>St. Moritz</strong><br>Switzerland"); markerCount++;
+
+  L.circleMarker([46.8020, 9.8360], {radius: 6, color: "green", fillColor: "green", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Davos</strong><br>Switzerland"); markerCount++;
+
+  L.circleMarker([47.0502, 8.3093], {radius: 6, color: "green", fillColor: "green", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Lucerne</strong><br>Switzerland"); markerCount++;
+
+  L.circleMarker([47.5596, 7.5886], {radius: 6, color: "green", fillColor: "green", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Basel</strong><br>Switzerland"); markerCount++;
+
+  // --- Liechtenstein (royalblue)
+  L.circleMarker([47.1416, 9.5215], {radius: 6, color: "royalblue", fillColor: "royalblue", fillOpacity: 0.8})
+    .addTo(map).bindPopup("<strong>Vaduz</strong><br>Liechtenstein"); markerCount++;
 
   // --- Italy (orange)
   L.circleMarker([45.4642, 9.1900], {radius: 6, color: "orange", fillColor: "orange", fillOpacity: 0.8}).addTo(map).bindPopup("<strong>Milan</strong><br>Italy");
